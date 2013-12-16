@@ -10,10 +10,9 @@ function cake() {
 	requestAnimationFrame(larg);
 }
 
-
 function draw(timestamp) {
 	var img = new Image();
-	//img.src = "assets/images/bullet.png";
+	img.src = "img/player.png";
 	var canvas = document.getElementById("gameCanvas");
 	var ctx = canvas.getContext("2d");
 	//var start = 0;
